@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mosquito Breeding Site Predictor</title>
+  </head>
+  <body>
+    <h1>Mosquito Breeding Site Predictor</h1>
+    <h3>Enter the data of your location</h3>
+    <h3>This is a open project done by J Nikhil Sudhan</h3>
+    <h3>Github Link:https://github.com/Nikhil-Sudhan/Mosquito_Breeding_Site_Prediction</h3>
+    <form action="/predict" method="post">
+      <label for="latitude">Latitude:</label>
+      <input type="text" name="latitude" id="latitude"><br>
+
+      <label for="longitude">Longitude:</label>
+      <input type="text" name="longitude" id="longitude"><br>
+
+      <label for="temperature">Temperature (Celsius):</label>
+      <input type="text" name="temperature" id="temperature"><br>
+
+      <label for="vegetation">Vegetation (range from 0 to 1):</label>
+      <input type="text" name="vegetation" id="vegetation"><br>
+
+      <label for="rainfall">Rainfall (mm):</label>
+      <input type="text" name="rainfall" id="rainfall"><br>
+
+      <input type="submit" value="Predict">
+    </form>
+  </body>
+</html>
